@@ -10,27 +10,7 @@ e per i valori che sono sia multipli di 3 che di 5
 const squareContainer = document.getElementById("square-container");
 // console.log(squareContainer);
 
-
 // Creo il ciclo for 
-// for (let i = 1; i <= 100; i++) {
-//     // console.log("iterazione numero: ", i , squareContainer.innerHTML);
-    
-//     // se i è multiplo sia di 3 che di 5 stampa "fizzbuzz"
-//     if ((i % 3 ===0) && (i % 5 ===0)){
-//         squareContainer.innerHTML += `<div class="square"> fizzbuzz </div>`;
-        
-//     } else if (i % 3 ===0){
-//         // se i è multiplo di 3 stampa "fizz"
-//         squareContainer.innerHTML += `<div class="square"> fizz </div>`;
-//     } else if (i % 5 ===0){
-//         // se i è multiplo di 5 stampa "buzz"
-//         squareContainer.innerHTML += `<div class="square"> buzz </div>`;
-//     }else {
-//         squareContainer.innerHTML += `<div class="square"> ${i} </div>`;
-//     }
-// };
-
-
 for (let i = 1; i <= 100; i++){
     let square = document.createElement("div");
     square.classList.add("square");
@@ -56,3 +36,27 @@ for (let i = 1; i <= 100; i++){
     }
 
 };
+
+// // Creo il ciclo for 
+// for (let i = 1; i <= 100; i++) {
+//     // console.log("iterazione numero: ", i , squareContainer.innerHTML);
+    
+//     // se i è multiplo sia di 3 che di 5 stampa "fizzbuzz"
+//     if ((i % 3 ===0) && (i % 5 ===0)){
+//         squareContainer.innerHTML += "<div class='square fizzbuzz'> fizzbuzz </div>";
+
+        
+//     } else if (i % 3 ===0){
+//         // se i è multiplo di 3 stampa "fizz"
+//         squareContainer.innerHTML += "<div class='square fizz'> fizz </div>";
+
+//     } else if (i % 5 ===0){
+//         // se i è multiplo di 5 stampa "buzz"
+//         squareContainer.innerHTML += "<div class='square buzz'> buzz </div>";
+
+//     }else {
+//         squareContainer.innerHTML += `<div class="square"> ${i} </div>`;
+//     }
+// };
+
+

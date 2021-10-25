@@ -9,25 +9,32 @@ body {
 }
 
 #container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
 
 #square-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 1%;
 }
 
 .square {
     width: calc(94% / 7);
-    height: 40px;
+    aspect-ratio: 1;
     background-color: rgba(19,137,178,255);
-    margin-bottom: 5px;
+    margin-bottom: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    padding: 35px;
 }
 
 .fizz {
