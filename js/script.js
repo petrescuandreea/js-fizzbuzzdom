@@ -18,22 +18,22 @@ for (let i = 1; i <= 100; i++){
     // se i è multiplo sia di 3 che di 5 stampa "fizzbuzz"
     if((i % 3 ===0) && (i % 5 ===0)){
         square.append("fizzbuzz");
-        squareContainer.append(square);
         square.classList.add("fizzbuzz");
+
     } else if (i % 3 ===0){
         // se i è multiplo di 3 stampa "fizz"
         square.append("fizz");
-        squareContainer.append(square);
         square.classList.add("fizz");
+
     } else if (i % 5 ===0){
         // se i è multiplo di 5 stampa "buzz"
         square.append("buzz");
-        squareContainer.append(square);
         square.classList.add("buzz");
+        
     } else {
         square.append(i);
-        squareContainer.append(square);
     }
+    squareContainer.append(square);
 
 };
 
