@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(8,59,76,255);
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    /* debug */
+    background-color: blueviolet;
+}
+
+#square-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: calc(94% / 7);
+    height: 40px;
+    background-color: rgba(19,137,178,255);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizz {
+    background-color: rgba(11,214,161,255);
+}
+
+.buzz {
+    background-color: rgba(255,209,102,255);
+}
+
+.fizzbuzz {
+    background-color: rgba(240,70,111,255);
+}
